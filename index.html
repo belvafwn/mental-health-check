@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website deteksi dini kesehatan mental berbasis preventif untuk mahasiswa dan pekerja muda">
+    <title>Cek Kondisi Mental - Deteksi Dini Kesehatan Mental</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Halaman Beranda -->
+    <div id="homePage" class="page active">
+        <div class="container">
+            <header class="header">
+                <div class="icon-wrapper">
+                    <svg class="icon-large" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                    </svg>
+                </div>
+                <h1>Cek Kondisi Mentalmu</h1>
+                <p class="subtitle">Website ini membantu kamu mengenali tanda-tanda kelelahan mental sejak dini. Bukan untuk diagnosis, tapi untuk memahami diri sendiri lebih baik.</p>
+            </header>
+
+            <section class="info-cards">
+                <h2>Mengapa Ini Penting?</h2>
+                <div class="cards-grid">
+                    <div class="card">
+                        <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2a10 10 0 0 1 10 10 10 10 0 0 1-10 10 10 10 0 0 1-10-10A10 10 0 0 1 12 2z"></path>
+                            <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                            <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                        </svg>
+                        <h3>Deteksi Dini</h3>
+                        <p>Mengenali tanda-tanda kelelahan mental sebelum menjadi lebih berat</p>
+                    </div>
+                    <div class="card">
+                        <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15.9999V7.9999C20.9996 7.64918 20.9071 7.30471 20.7315 7.00106C20.556 6.69742 20.3037 6.44526 20 6.2699L13 2.2699C12.696 2.09437 12.3511 2.00195 12 2.00195C11.6489 2.00195 11.304 2.09437 11 2.2699L4 6.2699C3.69626 6.44526 3.44398 6.69742 3.26846 7.00106C3.09294 7.30471 3.00036 7.64918 3 7.9999V15.9999C3.00036 16.3506 3.09294 16.6951 3.26846 16.9987C3.44398 17.3024 3.69626 17.5545 4 17.7299L11 21.7299C11.304 21.9054 11.6489 21.9979 12 21.9979C12.3511 21.9979 12.696 21.9054 13 21.7299L20 17.7299C20.3037 17.5545 20.556 17.3024 20.7315 16.9987C20.9071 16.6951 20.9996 16.3506 21 15.9999Z"></path>
+                            <polyline points="7.5 4.21 12 6.81 16.5 4.21"></polyline>
+                            <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                        </svg>
+                        <h3>Preventif</h3>
+                        <p>Mencegah lebih baik daripada mengobati kondisi mental yang sudah parah</p>
+                    </div>
+                    <div class="card">
+                        <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+                            <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+                            <line x1="6" y1="1" x2="6" y2="4"></line>
+                            <line x1="10" y1="1" x2="10" y2="4"></line>
+                            <line x1="14" y1="1" x2="14" y2="4"></line>
+                        </svg>
+                        <h3>Self-Care</h3>
+                        <p>Belajar mengenali kebutuhanmu dan memberikan perhatian pada diri sendiri</p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="alert alert-warning">
+                <svg class="alert-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                </svg>
+                <div>
+                    <h3>Penting untuk Diketahui</h3>
+                    <ul>
+                        <li>Bersifat edukasi dan deteksi dini, bukan diagnosis medis</li>
+                        <li>Tidak menggantikan konsultasi dengan psikolog atau psikiater</li>
+                        <li>Data kamu tidak disimpan dan sepenuhnya anonim</li>
+                        <li>Hasil hanya sebagai panduan untuk memahami kondisimu</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="cta-section">
+                <button onclick="goToPage('disclaimer')" class="btn btn-primary btn-large">
+                    Mulai Cek Kondisi Mental
+                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                </button>
+                <p class="cta-note">Waktu: ~3-5 menit</p>
+            </div>
+
+            <section class="articles-section">
+                <h2>Artikel Edukasi</h2>
+                <div class="articles-grid">
+                    <div class="article-card" onclick="goToPage('articles')">
+                        <svg class="article-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                        </svg>
+                        <h3>Burnout Bukan Malas</h3>
+                        <p>Burnout adalah kondisi kelelahan fisik, emosional, dan mental yang disebabkan oleh stres berkepanjangan...</p>
+                    </div>
+                    <div class="article-card" onclick="goToPage('articles')">
+                        <svg class="article-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                        </svg>
+                        <h3>Capek Mental Itu Valid</h3>
+                        <p>Kelelahan mental sama nyatanya dengan kelelahan fisik. Otak kita juga butuh istirahat...</p>
+                    </div>
+                    <div class="article-card" onclick="goToPage('articles')">
+                        <svg class="article-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                        </svg>
+                        <h3>Overthinking Adalah Kebiasaan</h3>
+                        <p>Overthinking bukan sifat bawaan, tapi pola pikir yang bisa diubah...</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Halaman Disclaimer -->
+    <div id="disclaimerPage" class="page">
+        <div class="container-center">
+            <div class="modal-card">
+                <div class="modal-header">
+                    <svg class="icon-large" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="12" y1="8" x2="12" y2="12"></line>
+                        <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                    </svg>
+                    <h2>Sebelum Melanjutkan</h2>
+                </div>
+
+                <div class="disclaimer-content">
+                    <h3>Pernyataan Penting:</h3>
+                    <ul class="disclaimer-list">
+                        <li>Website ini <strong>BUKAN</strong> alat diagnosis medis dan tidak dapat menggantikan peran tenaga profesional kesehatan mental seperti psikolog atau psikiater.</li>
+                        <li>Hasil tes hanya bersifat <strong>edukasi dan deteksi dini</strong> untuk membantu kamu lebih memahami kondisimu.</li>
+                        <li>Jika kamu merasa membutuhkan bantuan profesional, <strong>jangan ragu untuk mencari dukungan</strong> dari psikolog, konselor, atau hotline kesehatan mental.</li>
+                        <li>Semua jawaban yang kamu berikan <strong>tidak akan disimpan</strong> dan sepenuhnya anonim.</li>
+                    </ul>
+                </div>
+
+                <div class="disclaimer-note">
+                    <p>Dengan melanjutkan, kamu memahami dan menyetujui bahwa website ini hanya sebagai alat bantu edukasi preventif.</p>
+                </div>
+
+                <div class="button-group">
+                    <button onclick="goToPage('home')" class="btn btn-secondary">Kembali</button>
+                    <button onclick="goToPage('test')" class="btn btn-primary">Saya Mengerti</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Halaman Test -->
+    <div id="testPage" class="page">
+        <div class="container">
+            <div class="test-card">
+                <div class="test-header">
+                    <h2>Kuesioner Kondisi Mental</h2>
+                    <p>Dalam 2 minggu terakhir, seberapa sering kamu mengalami hal-hal berikut?</p>
+                    <div class="progress-bar">
+                        <div id="progressFill" class="progress-fill"></div>
+                    </div>
+                    <p class="progress-text">Pertanyaan terjawab: <span id="progressText">0 dari 10</span></p>
+                </div>
+
+                <div id="questionsContainer" class="questions-container">
+                    <!-- Questions will be generated by JavaScript -->
+                </div>
+
+                <div class="button-group">
+                    <button onclick="goToPage('home')" class="btn btn-secondary">Batalkan</button>
+                    <button id="submitBtn" onclick="calculateResult()" class="btn btn-primary" disabled>
+                        Jawab Semua Pertanyaan
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Halaman Result -->
+    <div id="resultPage" class="page">
+        <div class="container">
+            <div class="result-card">
+                <div class="result-header">
+                    <div id="resultIcon" class="result-icon"></div>
+                    <h2>Hasil Pemeriksaan</h2>
+                    <p id="resultScore" class="result-score">0</p>
+                    <p class="result-max">dari 40 poin</p>
+                </div>
+
+                <div id="resultCategory" class="result-category">
+                    <!-- Category will be inserted here -->
+                </div>
+
+                <div id="resultRecommendations" class="result-recommendations">
+                    <!-- Recommendations will be inserted here -->
+                </div>
+
+                <div id="professionalHelp" class="alert alert-danger" style="display: none;">
+                    <svg class="alert-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="12" y1="8" x2="12" y2="12"></line>
+                        <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                    </svg>
+                    <div>
+                        <h3>Disarankan Mencari Dukungan Profesional</h3>
+                        <p>Kondisi yang kamu alami mungkin memerlukan perhatian lebih serius. Mempertimbangkan untuk berbicara dengan psikolog, konselor, atau menghubungi layanan kesehatan mental dapat menjadi langkah yang sangat membantu.</p>
+                    </div>
+                </div>
+
+                <div class="result-note">
+                    <h3>Catatan Penting:</h3>
+                    <p>Hasil ini hanya gambaran umum dan tidak menggantikan penilaian profesional. Setiap orang memiliki pengalaman yang unik. Jika kamu merasa membutuhkan bantuan, jangan ragu untuk menghubungi tenaga profesional kesehatan mental.</p>
+                </div>
+
+                <div class="button-group">
+                    <button onclick="resetTest()" class="btn btn-primary">
+                        <svg class="btn-icon-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                            <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                        </svg>
+                        Kembali ke Beranda
+                    </button>
+                    <button onclick="goToPage('articles')" class="btn btn-success">
+                        <svg class="btn-icon-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                        </svg>
+                        Baca Artikel
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Halaman Articles -->
+    <div id="articlesPage" class="page">
+        <div class="container">
+            <div class="articles-header">
+                <svg class="icon-large" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                </svg>
+                <h2>Artikel Edukasi</h2>
+                <p>Bacaan ringan tentang kesehatan mental</p>
+            </div>
+
+            <div class="articles-full">
+                <article class="article-full">
+                    <h3>Burnout Bukan Malas</h3>
+                    <p>Burnout adalah kondisi kelelahan fisik, emosional, dan mental yang disebabkan oleh stres berkepanjangan. Ini bukan tentang kemalasan, tapi tentang baterai mental yang benar-benar habis. Tanda-tandanya: merasa kosong, tidak termotivasi, dan lelah sepanjang waktu. Solusinya: istirahat berkualitas, batasan yang sehat, dan menghargai diri sendiri.</p>
+                </article>
+
+                <article class="article-full">
+                    <h3>Capek Mental Itu Valid</h3>
+                    <p>Kelelahan mental sama nyatanya dengan kelelahan fisik. Otak kita juga butuh istirahat. Jika kamu merasa overwhelmed, itu bukan tanda lemah. Itu tanda kamu manusia yang butuh jeda. Validasi perasaanmu, ambil waktu untuk diri sendiri, dan ingat: tidak apa-apa untuk tidak apa-apa.</p>
+                </article>
+
+                <article class="article-full">
+                    <h3>Overthinking Adalah Kebiasaan</h3>
+                    <p>Overthinking bukan sifat bawaan, tapi pola pikir yang bisa diubah. Otak kita terlatih untuk terus menganalisis sebagai bentuk proteksi. Cara mengatasinya: tulis apa yang kamu pikirkan, fokus pada hal yang bisa kamu kontrol, dan praktikkan mindfulness sederhana seperti bernapas dalam-dalam selama 5 menit.</p>
+                </article>
+            </div>
+
+            <div class="cta-section">
+                <button onclick="goToPage('home')" class="btn btn-primary">
+                    <svg class="btn-icon-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                        <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                    </svg>
+                    Kembali ke Beranda
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
